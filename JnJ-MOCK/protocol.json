@@ -1,15 +1,14 @@
-
 {
-  "version": "0.1.0",
+  "version": "0.0.7",
   "schemaVersion": "0.0.2",
-  "name": "RASM-DEP-TEST",
+  "name": "RADAR MDD KCL s1",
   "healthIssues": [
     "depression"
   ],
   "protocols": [
     {
       "name": "PHQ8",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
@@ -43,14 +42,12 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510,
-            1950,
-            3390
+            480
           ]
         },
         "reminders": {
@@ -95,14 +92,12 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            540,
-            1980,
-            3420
+            510
           ]
         },
         "reminders": {
@@ -143,7 +138,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 3,
+      "estimatedCompletionTime": 7,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
@@ -152,26 +147,44 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
+            1890,
+            1980,
+            2070,
+            2160,
+            2250,
+            2340,
+            2430,
+            2520,
+            2610,
+            3330,
+            3420,
+            3510,
+            3600,
+            3690,
+            3780,
+            3870,
+            3960,
+            4050,
             4770,
-            4865,
-            4953,
+            4860,
+            4950,
             5040,
-            5133,
-            5265,
-            5320,
-            5423,
-            5492,
-            6217,
-            6336,
-            6440,
-            6482,
-            6575,
+            5130,
+            5220,
+            5310,
+            5400,
+            5490,
+            6210,
+            6300,
+            6390,
+            6480,
+            6570,
             6660,
             6750,
-            6848,
-            6955,
-            7664,
-            7743,
+            6840,
+            6930,
+            7650,
+            7740,
             7830,
             7920,
             8010,
@@ -187,25 +200,7 @@
             9540,
             9630,
             9720,
-            9810,
-            10530,
-            10625,
-            10742,
-            10803,
-            10935,
-            10993,
-            11079,
-            11167,
-            11256,
-            12023,
-            12063,
-            12177,
-            12254,
-            12330,
-            12424,
-            12526,
-            12612,
-            12703
+            9810
           ]
         },
         "reminders": {

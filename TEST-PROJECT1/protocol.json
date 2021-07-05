@@ -1,17 +1,67 @@
-
 {
-  "version": "0.1.0",
+  "version": "0.3.4",
   "schemaVersion": "0.0.2",
-  "name": "RASM-DEP-TEST",
+  "name": "RADAR MDD KCL PUBLIC TEST",
   "healthIssues": [
     "depression"
   ],
   "protocols": [
     {
-      "name": "PHQ8",
-      "showIntroduction": true,
+      "name": "THINC-IT",
+      "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "thinc_it",
+        "avsc": "notification"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "Requires a quiet space.",
+        "it": "Richiede uno spazio tranquillo.",
+        "nl": "Vereist een rustige ruimte.",
+        "da": "Kræver et stille rum.",
+        "de": "Benötigt einen ruhigen Platz.",
+        "es": "Requiere un espacio tranquilo."
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 42
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            660
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        }
+      }
+    },
+    {
+      "name": "PHQ8",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
         "avsc": "questionnaire"
       },
@@ -48,9 +98,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510,
-            1950,
-            3390
+            840
           ]
         },
         "reminders": {
@@ -59,11 +107,12 @@
           "repeat": 1
         }
       }
-    }, {
+    },
+    {
       "name": "RSES",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "rses",
         "avsc": "questionnaire"
       },
@@ -100,9 +149,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            540,
-            1980,
-            3420
+            930
           ]
         },
         "reminders": {
@@ -115,7 +162,7 @@
       "name": "ESM",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm",
         "avsc": "questionnaire"
       },
@@ -152,60 +199,62 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            4770,
-            4865,
-            4953,
-            5040,
-            5133,
-            5265,
-            5320,
-            5423,
-            5492,
-            6217,
-            6336,
-            6440,
-            6482,
-            6575,
-            6660,
-            6750,
-            6848,
-            6955,
-            7664,
-            7743,
-            7830,
-            7920,
-            8010,
-            8100,
-            8190,
-            8280,
-            8370,
-            9090,
-            9180,
-            9270,
-            9360,
-            9450,
-            9540,
-            9630,
-            9720,
-            9810,
-            10530,
-            10625,
-            10742,
-            10803,
-            10935,
-            10993,
-            11079,
-            11167,
-            11256,
-            12023,
-            12063,
-            12177,
-            12254,
-            12330,
-            12424,
-            12526,
-            12612,
-            12703
+            650,
+            1155,
+            1950,
+            2045,
+            2133,
+            2220,
+            2313,
+            2445,
+            2500,
+            2603,
+            2672,
+            3397,
+            3516,
+            3620,
+            3662,
+            3755,
+            3840,
+            3930,
+            4028,
+            4135,
+            4844,
+            4923,
+            5010,
+            5100,
+            5190,
+            5280,
+            5370,
+            5460,
+            5550,
+            6270,
+            6360,
+            6450,
+            6540,
+            6630,
+            6720,
+            6810,
+            6900,
+            6990,
+            7710,
+            7805,
+            7922,
+            7983,
+            8115,
+            8173,
+            8259,
+            8347,
+            8436,
+            9203,
+            9243,
+            9357,
+            9434,
+            9510,
+            9604,
+            9706,
+            9792,
+            9883
           ]
         },
         "reminders": {

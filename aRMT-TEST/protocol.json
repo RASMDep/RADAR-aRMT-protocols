@@ -1,15 +1,14 @@
-
 {
   "version": "0.1.0",
   "schemaVersion": "0.0.2",
-  "name": "RASM-DEP-TEST",
+  "name": "aRMT Test",
   "healthIssues": [
     "depression"
   ],
   "protocols": [
     {
       "name": "PHQ8",
-      "showIntroduction": true,
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "phq8",
