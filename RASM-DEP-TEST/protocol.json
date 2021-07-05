@@ -152,6 +152,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
+            540,
             4770,
             4865,
             4953,
