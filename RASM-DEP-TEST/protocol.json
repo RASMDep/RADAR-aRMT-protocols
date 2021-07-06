@@ -12,7 +12,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-        "name": "kss_8mood",
+        "name": "kss_mood",
         "avsc": "questionnaire"
       },
       "startText": {
