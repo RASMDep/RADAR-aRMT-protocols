@@ -11,7 +11,7 @@
       "name": "PHQ8",
       "showIntroduction": true,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://github.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/tree/main/questionnairs/",
         "name": "phq8",
         "avsc": "questionnaire"
       },
@@ -63,7 +63,7 @@
       "name": "RSES",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://github.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/tree/main/questionnairs/",
         "name": "rses",
         "avsc": "questionnaire"
       },
@@ -115,7 +115,7 @@
       "name": "ESM",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://github.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/tree/main/questionnairs/",
         "name": "esm",
         "avsc": "questionnaire"
       },
