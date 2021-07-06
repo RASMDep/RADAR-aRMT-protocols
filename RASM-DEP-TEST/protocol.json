@@ -16,11 +16,11 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is known as the KSS. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "en": "Please fill out this questionnaire between 1:00 p.m. and 2:00 p.m. or before a possible afternoon nap.",
         "it": "",
         "nl": "",
         "da": "",
-        "de": "",
+        "de": "Bitte füllen Sie diesen Fagebogen immer zwischen 13:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
         "es": ""
       },
       "endText": {
