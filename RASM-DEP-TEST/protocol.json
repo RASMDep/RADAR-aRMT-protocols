@@ -61,7 +61,7 @@
       }
     }, {
       "name": "BDI_II",
-      "showIntroduction": false,
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "bdi_ii",
