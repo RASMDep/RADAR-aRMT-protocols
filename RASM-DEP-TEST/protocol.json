@@ -60,11 +60,11 @@
         }
       }
     }, {
-      "name": "RSES",
+      "name": "BDI_II",
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "rses",
+        "name": "bdi_ii",
         "avsc": "questionnaire"
       },
       "startText": {
