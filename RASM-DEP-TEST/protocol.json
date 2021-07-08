@@ -68,10 +68,10 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "",
+        "en": "This questionnaire contains 21 groups of statements. Find one statement in each group that best describes how you have felt in the past two weeks, including today, and tick the appropriate statement. If more than one statement apply equally to any group, tick the statement with the higher number in brackets.Please make sure that you do not tick more than one answer in each group; this also applies to groups 16 and 18. Be sure to read all of them Statements in each group before making your choice.",
         "it": "",
         "nl": "",
-        "da": "",
+        "da": "Dieser Fragebogen enthält 21 Gruppen von Aussagen. Suchen Sie eine Aussage in jeder Gruppe heraus, die am besten beschreibt, wie Sie sich in den letzten zwei Wochen einschliesslich heute gefühlt haben und kreuzen Sie die entsprechende Aussage an. Falls mehrere Aussagen einer Gruppe gleichermassen zutreffen, kreuzen Sie die Aussage mit der höheren Zahl in der Klammer an. Achten Sie bitte darauf, dass Sie in jeder Gruppe nicht mehr als eine Antwort ankreuzen; das gilt auch für Gruppe 16 und 18. Lesen Sie auf jeden Fall alle Aussagen in jeder Gruppe, bevor Sie Ihre Wahl treffen.",
         "de": "",
         "es": ""
       },
@@ -91,7 +91,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 3,
+      "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
