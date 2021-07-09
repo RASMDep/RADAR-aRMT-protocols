@@ -8,17 +8,17 @@
   "protocols": [
     {
       "name": "MORNING",
-      "showIntroduction": false,
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "morning",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "en": "The morning questionnaire helps us assess the quality of your sleep. It includes questions about going to bed, the quality of your sleep and your current state of health. Please fill out the questionnaire within 30 minutes of waking up. ",
         "it": "",
         "nl": "",
-        "da": "",
+        "da": "Der Fragebogen am Morgen hilft uns, die Qualität Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualität und zu Ihrem jetzigen Befinden. Bitte füllen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
         "de": "",
         "es": ""
       },
@@ -111,11 +111,11 @@
         }
       }
     }, {
-      "name": "ESM",
+      "name": "PHQ8",
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "esm",
+        "name": "phq8",
         "avsc": "questionnaire"
       },
       "startText": {
