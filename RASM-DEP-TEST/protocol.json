@@ -61,7 +61,7 @@
       }
     },
     {
-      "name": "MORNING",
+      "name": "morning",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
