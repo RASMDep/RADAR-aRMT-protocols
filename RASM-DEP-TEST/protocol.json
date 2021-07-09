@@ -7,15 +7,15 @@
   ],
   "protocols": [
     {
-      "name": "morning",
-      "showIntroduction": true,
+      "name": "PHQ8",
+      "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "morning",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "phq8",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Morning questionnair",
+        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
         "it": "",
         "nl": "",
         "da": "",
@@ -47,12 +47,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            300,
+            510,
+            1950,
+            3390
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 1,
+          "amount": 4,
           "repeat": 1
         }
       }
