@@ -59,7 +59,59 @@
           "repeat": 1
         }
       }
-    }, {
+    },
+    {
+      "name": "MORNING",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "morning",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "The morning questionnaire helps us assess the quality of your sleep. There are questions about going to bed, quality of sleep, and where you are now. Please fill out the questionnaire within 30 minutes of waking up.",
+        "it": "",
+        "nl": "",
+        "da": "Der Fragebogen am Morgen hilft uns die Qualität ihres Schlafes zu beurteilen. Es gibt Fragen zum Schlafengehen, Schlafqualität und Ihr jetziges befinden. Bitte füllen Sie den Fragebogen innerhalb 30 Minuten nach Aufwachen  aus.",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "Vielen Dank.",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 14
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            300,
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 1,
+          "repeat": 1
+        }
+      }
+    },  
+    {
       "name": "BDI_II",
       "showIntroduction": true,
       "questionnaire": {
