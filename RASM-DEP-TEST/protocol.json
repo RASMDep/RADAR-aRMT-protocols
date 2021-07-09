@@ -1,22 +1,21 @@
-
 {
   "version": "0.1.0",
   "schemaVersion": "0.0.2",
-  "name": "RASM-DEP-TEST",
+  "name": "aRMT Test",
   "healthIssues": [
     "depression"
   ],
   "protocols": [
     {
-      "name": "PHQ8",
-      "showIntroduction": false,
+      "name": "MORNING",
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "phq8",
+        "name": "morning",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "en": "Morning questionnair",
         "it": "",
         "nl": "",
         "da": "",
@@ -48,59 +47,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510,
-            1950,
-            3390
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 4,
-          "repeat": 1
-        }
-      }
-    },
-    {
-      "name": "MORNING",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "morning",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "The morning questionnaire helps us assess the quality of your sleep. There are questions about going to bed, quality of sleep, and where you are now. Please fill out the questionnaire within 30 minutes of waking up.",
-        "it": "",
-        "nl": "",
-        "da": "Der Fragebogen am Morgen hilft uns die Qualität ihres Schlafes zu beurteilen. Es gibt Fragen zum Schlafengehen, Schlafqualität und Ihr jetziges befinden. Bitte füllen Sie den Fragebogen innerhalb 30 Minuten nach Aufwachen  aus.",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "Thank you for taking the time today.",
-        "it": "",
-        "nl": "",
-        "da": "Vielen Dank.",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 5,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 14
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
             300,
           ]
         },
@@ -110,20 +56,19 @@
           "repeat": 1
         }
       }
-    },  
-    {
-      "name": "BDI_II",
-      "showIntroduction": true,
+    }, {
+      "name": "RSES",
+      "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "bdi_ii",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "rses",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This questionnaire contains 21 groups of statements. Find one statement in each group that best describes how you have felt in the past two weeks, including today, and tick the appropriate statement. If more than one statement apply equally to any group, tick the statement with the higher number in brackets.Please make sure that you do not tick more than one answer in each group; this also applies to groups 16 and 18. Be sure to read all of them Statements in each group before making your choice.",
+        "en": "",
         "it": "",
         "nl": "",
-        "da": "Dieser Fragebogen enthält 21 Gruppen von Aussagen. Suchen Sie eine Aussage in jeder Gruppe heraus, die am besten beschreibt, wie Sie sich in den letzten zwei Wochen einschliesslich heute gefühlt haben und kreuzen Sie die entsprechende Aussage an. Falls mehrere Aussagen einer Gruppe gleichermassen zutreffen, kreuzen Sie die Aussage mit der höheren Zahl in der Klammer an. Achten Sie bitte darauf, dass Sie in jeder Gruppe nicht mehr als eine Antwort ankreuzen; das gilt auch für Gruppe 16 und 18. Lesen Sie auf jeden Fall alle Aussagen in jeder Gruppe, bevor Sie Ihre Wahl treffen.",
+        "da": "",
         "de": "",
         "es": ""
       },
@@ -143,7 +88,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 5,
+      "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
@@ -167,7 +112,7 @@
       "name": "ESM",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "esm",
         "avsc": "questionnaire"
       },
