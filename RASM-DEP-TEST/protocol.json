@@ -99,8 +99,6 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            540,
-            1980,
             3420
           ]
         },
