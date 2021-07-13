@@ -59,11 +59,11 @@
         }
       }
     }, {
-      "name": "RSES",
+      "name": "BDI-II",
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-        "name": "rses",
+        "name": "bdi_ii",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -99,7 +99,9 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            3420
+            510,
+            1950,
+            3390
           ]
         },
         "reminders": {
