@@ -111,7 +111,7 @@
         }
       }
     }, {
-      "name": "audio",
+      "name": "AUDIO",
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
