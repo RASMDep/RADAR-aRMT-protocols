@@ -112,7 +112,7 @@
       "name": "PHQ8",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "phq8",
         "avsc": "questionnaire"
       },
