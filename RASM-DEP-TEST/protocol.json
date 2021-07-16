@@ -47,9 +47,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510,
-            1950,
-            3390
+            510
           ]
         },
         "reminders": {
@@ -99,9 +97,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510,
-            1950,
-            3390
+            510
           ]
         },
         "reminders": {
@@ -151,9 +147,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            810,
-            1950,
-            3390
+            810
           ]
         },
         "reminders": {
@@ -204,17 +198,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            500,
-            1000,
-            1500,
-            2000,
-            2500,
-            3000,
-            3500,
-            4000,
-            4500,
-            5000,
-            5500 
+            500
           ]
         },
         "reminders": {
