@@ -146,7 +146,11 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            810
+            810,
+            2010,
+            3500,
+            4500,
+            5600
           ]
         },
         "reminders": {
