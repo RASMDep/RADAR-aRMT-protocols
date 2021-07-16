@@ -106,8 +106,7 @@
           "repeat": 1
         }
       }
-    },
-     {
+    },{
       "name": "EVENING",
       "showIntroduction": true,
       "questionnaire": {
@@ -156,8 +155,7 @@
           "repeat": 1
         }
       }
-    },
-    {
+    },{
       "name": "AUDIO",
       "showIntroduction": false,
       "questionnaire": {
