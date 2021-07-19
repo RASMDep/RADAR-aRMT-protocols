@@ -47,7 +47,13 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510
+            510,
+            1950,
+            3390,
+            4830,
+            6270,
+            7710,
+            9150
           ]
         },
         "reminders": {
