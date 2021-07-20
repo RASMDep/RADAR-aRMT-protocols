@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "schemaVersion": "0.0.2",
   "name": "RASM-DEP-TEST",
   "healthIssues": [
@@ -11,7 +11,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-        "name": "morning_v2",
+        "name": "morning",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -19,15 +19,15 @@
         "it": "",
         "nl": "",
         "da": "Der Fragebogen am Morgen hilft uns, die Qualität Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualität und zu Ihrem jetzigen Befinden. Bitte füllen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
-        "de": "",
+        "de": "Der Fragebogen am Morgen hilft uns, die Qualität Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualität und zu Ihrem jetzigen Befinden. Bitte füllen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
         "es": ""
       },
       "endText": {
         "en": "Thank you for taking the time today.",
         "it": "",
         "nl": "",
-        "da": "",
-        "de": "",
+        "da": "Vielen Dank!",
+        "de": "Vielen Dank!",
         "es": ""
       },
       "warn": {
@@ -42,23 +42,17 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510,
-            1950,
-            3390,
-            4830,
-            6270,
-            7710,
-            9150
+            300
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 4,
+          "amount": 1,
           "repeat": 1
         }
       }
@@ -110,9 +104,69 @@
           "unit": "day",
           "amount": 4,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 360
         }
       }
-    },{
+    },
+    {
+      "name": "kss_mood",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "name": "kss_mood",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            720
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 1,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        }
+      }
+    },
+    {
       "name": "EVENING",
       "showIntroduction": true,
       "questionnaire": {
@@ -147,72 +201,22 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            810,
-            2010,
-            3500,
-            4500,
-            5600
+            1080,
           ]
         },
         "reminders": {
           "unit": "day",
           "amount": 4,
           "repeat": 1
-        }
-      }
-    },{
-      "name": "AUDIO",
-      "showIntroduction": false,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-        "name": "audio",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 14
         },
-        "repeatQuestionnaire": {
+        "completionWindow": {
           "unit": "min",
-          "unitsFromZero": [
-            500
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 1,
-          "repeat": 0
+          "amount": 300
         }
       }
     },
@@ -252,27 +256,26 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510,
-            1950,
-            3390,
-            4830,
-            6270,
-            7710,
-            9150
+            1140
           ]
         },
         "reminders": {
           "unit": "day",
           "amount": 4,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 240
         }
       }
-    }, {
+    }, 
+    {
       "name": "BDI-II",
       "showIntroduction": false,
       "questionnaire": {
@@ -320,6 +323,10 @@
           "unit": "day",
           "amount": 4,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 260
         }
       }
     }
