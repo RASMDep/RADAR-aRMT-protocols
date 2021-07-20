@@ -158,57 +158,6 @@
           "repeat": 1
         }
       }
-    },
-    {
-      "name": "CHECKLIST",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-        "name": "checklist",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "This checklist will help you prepare for bed",
-        "it": "",
-        "nl": "",
-        "da": "Diese Checkliste hilft Ihnen sich für das Schlafengehen vorzubereiten",
-        "de": "Diese Checkliste hilft Ihnen sich für das Schlafengehen vorzubereiten",
-        "es": ""
-      },
-      "endText": {
-        "en": "Many Thanks! The sleep device is now ready. Don't take it off anymore. We wish you a good night!",
-        "it": "",
-        "nl": "",
-        "da": "Vielen Dank! Damit ist das Schlafgerät bereit. Ziehen Sie es nicht mehr aus. Wir wünschen eine gute Nacht!",
-        "de": "Vielen Dank! Damit ist das Schlafgerät bereit. Ziehen Sie es nicht mehr aus. Wir wünschen eine gute Nacht!",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [
-            1140
-          ]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 4,
-          "repeat": 1
-        }
-      }
     }
   ]
 }
