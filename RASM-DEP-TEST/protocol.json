@@ -106,10 +106,6 @@
           "unit": "day",
           "amount": 1,
           "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "min",
-          "amount": 180
         }
       }
     },
@@ -161,10 +157,6 @@
           "unit": "day",
           "amount": 4,
           "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "min",
-          "amount": 300
         }
       }
     },
@@ -216,10 +208,6 @@
           "unit": "day",
           "amount": 4,
           "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "min",
-          "amount": 240
         }
       }
     }
