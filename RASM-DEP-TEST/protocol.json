@@ -38,7 +38,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 3,
+      "estimatedCompletionTime": 8,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
@@ -107,7 +107,7 @@
           "repeat": 1
         }
       }
-    },
+    }
     
   ]
 }
