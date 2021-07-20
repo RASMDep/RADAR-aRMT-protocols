@@ -109,27 +109,27 @@
       }
     },
     {
-      "name": "CHECKLIST",
+      "name": "EVENING",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-        "name": "checklist",
+        "name": "evening",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "This checklist will help you prepare for bed",
+        "en": "The questionnaire in the evening helps us to record your activities during the day. These can have an impact on your sleep.",
         "it": "",
         "nl": "",
-        "da": "Diese Checkliste hilft Ihnen sich für das Schlafengehen vorzubereiten",
-        "de": "Diese Checkliste hilft Ihnen sich für das Schlafengehen vorzubereiten",
+        "da": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
+        "de": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
         "es": ""
       },
       "endText": {
-        "en": "Many Thanks! The sleep device is now ready. Don't take it off anymore. We wish you a good night!",
+        "en": "Many Thanks! Before going to bed, continue with the checklist.",
         "it": "",
         "nl": "",
-        "da": "Vielen Dank! Damit ist das Schlafgerät bereit. Ziehen Sie es nicht mehr aus. Wir wünschen eine gute Nacht!",
-        "de": "Vielen Dank! Damit ist das Schlafgerät bereit. Ziehen Sie es nicht mehr aus. Wir wünschen eine gute Nacht!",
+        "da": "Vielen Dank! Vor dem Schlafengehen geht es dann weiter mit der Checkliste.",
+        "de": "Vielen Dank! Vor dem Schlafengehen geht es dann weiter mit der Checkliste.",
         "es": ""
       },
       "warn": {
@@ -149,7 +149,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1140
+            1080,
           ]
         },
         "reminders": {
