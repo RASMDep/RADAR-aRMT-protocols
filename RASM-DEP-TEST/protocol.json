@@ -56,7 +56,8 @@
           "repeat": 1
         }
       }
-    }, {
+    }, 
+    {
       "name": "BDI-II",
       "showIntroduction": false,
       "questionnaire": {
@@ -104,10 +105,6 @@
           "unit": "day",
           "amount": 4,
           "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "min",
-          "amount": 360
         }
       }
     },
