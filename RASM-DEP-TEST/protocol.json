@@ -56,13 +56,13 @@
           "repeat": 1
         }
       }
-    }, 
+    },
     {
-      "name": "BDI-II",
+      "name": "kss_mood",
       "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-        "name": "bdi_ii",
+        "name": "kss_mood",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -93,21 +93,134 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 14
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            510
+            720
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 1,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 180
+        }
+      }
+    },
+    {
+      "name": "EVENING",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "name": "evening",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "The questionnaire in the evening helps us to record your activities during the day. These can have an impact on your sleep.",
+        "it": "",
+        "nl": "",
+        "da": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
+        "de": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
+        "es": ""
+      },
+      "endText": {
+        "en": "Many Thanks! Before going to bed, continue with the checklist.",
+        "it": "",
+        "nl": "",
+        "da": "Vielen Dank! Vor dem Schlafengehen geht es dann weiter mit der Checkliste.",
+        "de": "Vielen Dank! Vor dem Schlafengehen geht es dann weiter mit der Checkliste.",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1080,
           ]
         },
         "reminders": {
           "unit": "day",
           "amount": 4,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 300
+        }
+      }
+    },
+    {
+      "name": "CHECKLIST",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "name": "checklist",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This checklist will help you prepare for bed",
+        "it": "",
+        "nl": "",
+        "da": "Diese Checkliste hilft Ihnen sich für das Schlafengehen vorzubereiten",
+        "de": "Diese Checkliste hilft Ihnen sich für das Schlafengehen vorzubereiten",
+        "es": ""
+      },
+      "endText": {
+        "en": "Many Thanks! The sleep device is now ready. Don't take it off anymore. We wish you a good night!",
+        "it": "",
+        "nl": "",
+        "da": "Vielen Dank! Damit ist das Schlafgerät bereit. Ziehen Sie es nicht mehr aus. Wir wünschen eine gute Nacht!",
+        "de": "Vielen Dank! Damit ist das Schlafgerät bereit. Ziehen Sie es nicht mehr aus. Wir wünschen eine gute Nacht!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1140
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 4,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 240
         }
       }
     }
-    
   ]
 }
