@@ -149,7 +149,58 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            720
+            920
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 1,
+          "repeat": 1
+        }
+      }
+    },
+    {
+      "name": "CHECKLIST",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "name": "checklist",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1020
           ]
         },
         "reminders": {
@@ -159,6 +210,7 @@
         }
       }
     }
+
 
   ]
 }
