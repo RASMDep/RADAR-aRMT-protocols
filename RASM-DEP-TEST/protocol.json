@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "schemaVersion": "0.0.2",
   "name": "RASM-DEP-TEST",
   "healthIssues": [
@@ -102,13 +102,17 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            720
+            750
           ]
         },
         "reminders": {
           "unit": "day",
           "amount": 1,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 120
         }
       }
     },
@@ -153,13 +157,17 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            920
+            1080
           ]
         },
         "reminders": {
           "unit": "day",
           "amount": 1,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 300
         }
       }
     },
@@ -204,13 +212,17 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1020
+            1140
           ]
         },
         "reminders": {
           "unit": "day",
           "amount": 1,
           "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 480
         }
       }
     }
