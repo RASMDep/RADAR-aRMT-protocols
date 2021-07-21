@@ -63,18 +63,18 @@
     },
     {
       "name": "kss_mood",
-      "showIntroduction": false,
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "kss_mood",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "",
+        "en": "Please fill out this questionnaire between 1:00 p.m. and 2:00 p.m. or before a possible afternoon nap",
         "it": "",
         "nl": "",
-        "da": "",
-        "de": "",
+        "da": "Bitte füllen Sie diesen Fagebogen immer zwischen 13:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
+        "de": "Bitte füllen Sie diesen Fagebogen immer zwischen 13:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
         "es": ""
       },
       "endText": {
