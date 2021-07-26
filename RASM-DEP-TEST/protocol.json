@@ -118,26 +118,26 @@
     },
     {
       "name": "EVENING",
-      "showIntroduction": false,
+      "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "evening",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "",
+        "en": "The questionnaire in the evening helps us to record your activities during the day. These can have an impact on your sleep.",
         "it": "",
         "nl": "",
-        "da": "",
-        "de": "",
+        "da": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
+        "de": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
         "es": ""
       },
       "endText": {
-        "en": "",
+        "en": "Thanks very much! Then, before going to bed, continue with the checklist.",
         "it": "",
         "nl": "",
-        "da": "",
-        "de": "",
+        "da": "Vielen Dank! Vor dem Schlafengehen geht es dann weiter mit der Checkliste.",
+        "de": "Vielen Dank! Vor dem Schlafengehen geht es dann weiter mit der Checkliste.",
         "es": ""
       },
       "warn": {
