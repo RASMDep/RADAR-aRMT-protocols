@@ -112,7 +112,7 @@
         },
         "completionWindow": {
           "unit": "min",
-          "amount": 120
+          "amount": 1000
         }
       }
     },
