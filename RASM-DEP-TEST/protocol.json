@@ -10,7 +10,7 @@
       "name": "MORNING",
       "showIntroduction": true,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "morning",
         "avsc": "questionnaire"
       },
