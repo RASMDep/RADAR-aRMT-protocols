@@ -57,7 +57,7 @@
         },
         "completionWindow": {
           "unit": "min",
-          "amount": 360
+          "amount": 1360
         }
       }
     },
@@ -96,8 +96,8 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
+          "unit": "week",
+          "amount": 2
         },
         "repeatQuestionnaire": {
           "unit": "min",
