@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.1",
   "schemaVersion": "0.0.2",
   "name": "RASM-DEP-TEST",
   "healthIssues": [
@@ -10,7 +10,7 @@
       "name": "MORNING",
       "showIntroduction": true,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "morning",
         "avsc": "questionnaire"
       },
@@ -65,7 +65,7 @@
       "name": "kss_mood",
       "showIntroduction": true,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "kss_mood",
         "avsc": "questionnaire"
       },
@@ -120,7 +120,7 @@
       "name": "EVENING",
       "showIntroduction": true,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "evening",
         "avsc": "questionnaire"
       },
@@ -175,7 +175,7 @@
       "name": "CHECKLIST",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "checklist",
         "avsc": "questionnaire"
       },
