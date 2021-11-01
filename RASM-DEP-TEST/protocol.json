@@ -7,7 +7,7 @@
   ],
   "protocols": [
     {
-      "name": "MORNING_v2",
+      "name": "MORNING",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
