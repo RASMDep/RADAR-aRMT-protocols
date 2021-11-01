@@ -26,7 +26,7 @@
         "en": "Thank you for taking the time today.",
         "it": "",
         "nl": "",
-        "da": "Vielen Dank!",
+        "da": "",
         "de": "Vielen Dank!",
         "es": ""
       },
@@ -65,7 +65,7 @@
       "name": "kss_mood",
       "showIntroduction": true,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "kss_mood",
         "avsc": "questionnaire"
       },
@@ -73,7 +73,7 @@
         "en": "Please fill out this questionnaire between 1:00 p.m. and 2:00 p.m. or before a possible afternoon nap",
         "it": "",
         "nl": "",
-        "da": "Bitte füllen Sie diesen Fagebogen immer zwischen 13:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
+        "da": "",
         "de": "Bitte füllen Sie diesen Fagebogen immer zwischen 13:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
         "es": ""
       },
@@ -120,7 +120,7 @@
       "name": "EVENING",
       "showIntroduction": true,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "evening",
         "avsc": "questionnaire"
       },
@@ -128,7 +128,7 @@
         "en": "The questionnaire in the evening helps us to record your activities during the day. These can have an impact on your sleep.",
         "it": "",
         "nl": "",
-        "da": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
+        "da": "",
         "de": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
         "es": ""
       },
@@ -136,7 +136,7 @@
         "en": "Thanks very much! Then, before going to bed, continue with the checklist.",
         "it": "",
         "nl": "",
-        "da": "Vielen Dank! Vor dem Schlafengehen geht es dann weiter mit der Checkliste.",
+        "da": "",
         "de": "Vielen Dank! Vor dem Schlafengehen geht es dann weiter mit der Checkliste.",
         "es": ""
       },
@@ -175,7 +175,7 @@
       "name": "CHECKLIST",
       "showIntroduction": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/GiuliaDAP/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
         "name": "checklist",
         "avsc": "questionnaire"
       },
