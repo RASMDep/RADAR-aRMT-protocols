@@ -43,12 +43,9 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            300,
-            1740,
-            3180,
-            7500,
-            8940,
-            10380
+            1740, 3180,	4620,	6060,	7500,	8940,	10380,
+            21900,	23340,	24780,	26220,	27660,	29100,	30540,
+            42060,	43500,	44940,	46380,	47820,	49260,	50700
           ]
         },
         "reminders": {
@@ -58,7 +55,7 @@
         },
         "completionWindow": {
           "unit": "min",
-          "amount": 1360
+          "amount": 480
         }
       }
     },
@@ -71,11 +68,11 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "SL_The morning questionnaire helps us assess the quality of your sleep. It includes questions about going to bed, the quality of your sleep and your current state of health. Please fill out the questionnaire within 30 minutes of waking up. ",
+        "en": "The morning questionnaire helps us assess the quality of your sleep. It includes questions about going to bed, the quality of your sleep and your current state of health. Please fill out the questionnaire within 30 minutes of waking up. ",
         "it": "",
         "nl": "",
         "da": "",
-        "de": "SL_Der Fragebogen am Morgen hilft uns, die Qualität Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualität und zu Ihrem jetzigen Befinden. Bitte füllen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
+        "de": "Der Fragebogen am Morgen hilft uns, die Qualität Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualität und zu Ihrem jetzigen Befinden. Bitte füllen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
         "es": ""
       },
       "endText": {
@@ -99,8 +96,8 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            4620,
-            6060
+            11820,	13260, 14700,	16140,	17580,	19020,	20460,
+            31980,	33420, 34860,	36300,	37740,	39180,	40620
           ]
         },
         "reminders": {
@@ -110,7 +107,7 @@
         },
         "completionWindow": {
           "unit": "min",
-          "amount": 1360
+          "amount": 480
         }
       }
     },
@@ -149,8 +146,8 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "week",
-          "amount": 2
+          "unit": "day",
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -165,7 +162,7 @@
         },
         "completionWindow": {
           "unit": "min",
-          "amount": 1000
+          "amount": 180
         }
       }
     },
@@ -210,7 +207,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1080
+            1140
           ]
         },
         "reminders": {
@@ -257,15 +254,12 @@
         "es": ""
       },
       "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
-        },
+      "protocol":
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            1140
+            11220,	12660,	14100,	15540,	16980,	18420,	19860,
+            29940,	31380,	32820,	34260,	35700,	37140,	38580
           ]
         },
         "reminders": {
@@ -278,8 +272,117 @@
           "amount": 480
         }
       }
+    },
+    {
+      "name": "BDI-II",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "name": "bdi_ii",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Beck's Depression Inventory",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "Beck's Depression Inventory",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks very much!",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "Vielen Dank! ",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            10560
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 1,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 600
+        }
+      }
+    },
+{
+      "name": "ESS",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "name": "ess",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Epworth sleepiness scale (ESS) assess daytime sleepiness",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "Die Epworth sleepiness scale (ESS) ist ein Verfahren zur Erfassung der Tagesschläfrigkeit ",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thanks very much!",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "Vielen Dank! ",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            10560
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 1,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 600
+        }
+      }
     }
-
 
   ]
 }
