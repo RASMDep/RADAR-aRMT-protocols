@@ -11,7 +11,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-        "name": "morning_v2",
+        "name": "morning_v",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -47,7 +47,68 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            300
+            300,
+            3900,
+            7500,
+            18300,
+            21900,
+            25500
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 1,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 1360
+        }
+      }
+    },
+     {
+      "name": "MORNING",
+      "showIntroduction": true,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+        "name": "morning_v2",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "SL_The morning questionnaire helps us assess the quality of your sleep. It includes questions about going to bed, the quality of your sleep and your current state of health. Please fill out the questionnaire within 30 minutes of waking up. ",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "SL_Der Fragebogen am Morgen hilft uns, die Qualität Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualität und zu Ihrem jetzigen Befinden. Bitte füllen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "Vielen Dank!",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 8,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            11100,
+            14700
           ]
         },
         "reminders": {
