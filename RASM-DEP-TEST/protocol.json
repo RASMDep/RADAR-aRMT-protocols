@@ -44,11 +44,11 @@
           "unit": "min",
           "unitsFromZero": [
             300,
-            3900,
+            1740,
+            3180,
             7500,
-            18300,
-            21900,
-            25500
+            8940,
+            10380
           ]
         },
         "reminders": {
@@ -99,8 +99,8 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            11100,
-            14700
+            4620,
+            6060
           ]
         },
         "reminders": {
