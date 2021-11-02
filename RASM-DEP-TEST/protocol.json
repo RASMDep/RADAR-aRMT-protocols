@@ -11,7 +11,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-        "name": "morning_v",
+        "name": "morning",
         "avsc": "questionnaire"
       },
       "startText": {
