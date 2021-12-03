@@ -216,7 +216,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 300
+					"amount": 600
 				}
 			}
 		},
@@ -268,7 +268,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 480
+					"amount": 600
 				}
 			}
 		},
@@ -323,7 +323,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 600
+					"amount": 1200
 				}
 			}
 		},
@@ -378,7 +378,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 600
+					"amount": 1200
 				}
 			}
 		},{
@@ -428,7 +428,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 1500
+					"amount": 1200
 				}
 			}
 		}
