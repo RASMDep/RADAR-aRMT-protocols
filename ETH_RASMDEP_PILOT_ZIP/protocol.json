@@ -5,8 +5,7 @@
 	"healthIssues": [
 		"depression"
 	],
-	"protocols": [
-		{
+	"protocols": [{
 			"name": "MORNING",
 			"showIntroduction": true,
 			"questionnaire": {
@@ -43,8 +42,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						11820, 13260, 14700, 16140, 17580, 19020, 20460,
-						31980, 33420, 34860, 36300, 37740, 39180, 40620
+						1740,3180,4620
 					]
 				},
 				"reminders": {
@@ -205,8 +203,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						11220, 12660, 14100, 15540, 16980, 18420, 19860,
-						29940, 31380, 32820, 34260, 35700, 37140, 38580
+						1140,2580,4020
 					]
 				},
 				"reminders": {
