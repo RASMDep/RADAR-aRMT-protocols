@@ -306,10 +306,6 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "week",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
@@ -361,10 +357,6 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "week",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
