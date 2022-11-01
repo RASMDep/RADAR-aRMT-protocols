@@ -167,11 +167,11 @@
 			}
 		},
 		{
-			"name": "EVENING",
+			"name": "evening",
 			"showIntroduction": true,
 			"questionnaire": {
 				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-				"name": "evening",
+				"name": "evening_assessment",
 				"avsc": "questionnaire"
 			},
 			"startText": {
