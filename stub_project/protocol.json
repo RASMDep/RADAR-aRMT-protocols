@@ -60,7 +60,7 @@
 			}
 		},
 		{
-			"name": "morning_assessment_v2",
+			"name": "morning_assessment",
 			"showIntroduction": true,
 			"questionnaire": {
 				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
