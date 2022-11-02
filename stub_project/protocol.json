@@ -64,8 +64,6 @@
 			"showIntroduction": true,
 			"questionnaire": {
 				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-				"name": "morning",
-				"avsc": "questionnaire"
 			},
 			"startText": {
 				"en": "The morning questionnaire helps us assess the quality of your sleep. It includes questions about going to bed, the quality of your sleep and your current state of health. Please fill out the questionnaire within 30 minutes of waking up. ",
