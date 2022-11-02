@@ -43,9 +43,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740, 3180, 4620, 6060, 7500, 8940, 10380,
-						21900, 23340, 24780, 26220, 27660, 29100, 30540,
-						42060, 43500, 44940, 46380, 47820, 49260, 50700
+						1740, 3180, 4620, 6060, 7500
 					]
 				},
 				"reminders": {
@@ -97,8 +95,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740, 3180,4620, 6060,11820, 13260, 14700, 16140, 17580, 19020, 20460,
-						31980, 33420, 34860, 36300, 37740, 39180, 40620
+						1740, 3180, 4620, 6060, 7500
 					]
 				},
 				"reminders": {
@@ -256,11 +253,14 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
+				"repeatProtocol": {
+					"unit": "day",
+					"amount": 1
+				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						11220, 12660, 14100, 15540, 16980, 18420, 19860,
-						31380, 32820, 34260, 35700, 37140, 38580,39630
+						1140
 					]
 				},
 				"reminders": {
@@ -308,10 +308,14 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
+				"repeatProtocol": {
+					"unit": "day",
+					"amount": 1
+				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						10560, 20640, 30720, 40800, 50880
+						669
 					]
 				},
 				"reminders": {
@@ -321,7 +325,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 1200
+					"amount": 180
 				}
 			}
 		},
@@ -359,10 +363,14 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
+				"repeatProtocol": {
+					"unit": "day",
+					"amount": 1
+				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						10560, 20640, 30720, 40800, 50880
+						669
 					]
 				},
 				"reminders": {
@@ -372,57 +380,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 1200
-				}
-			}
-		},{
-			"name": "AUDIO",
-			"showIntroduction": true,
-			"questionnaire": {
-				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-				"name": "audio",
-				"avsc": "questionnaire"
-			},
-			"startText": {
-				"en": "",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "",
-				"es": ""
-			},
-			"endText": {
-				"en": "Thank you for taking the time today.",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "Vielen Dank!",
-				"es": ""
-			},
-			"warn": {
-				"en": "Find a quiet space.",
-        "it": "Trova uno spazio tranquillo.",
-        "nl": "Zoek een stille ruimte.",
-        "da": "Find et roligt sted.",
-        "de": "Suchen Sie sich einen ruhigen Platz.",
-        "es": "Encuentra un espacio tranquilo."
-			},
-			"estimatedCompletionTime": 8,
-			"protocol": {
-				"repeatQuestionnaire": {
-					"unit": "min",
-					"unitsFromZero": [
-						10560, 20640, 30720, 40800, 50880
-					]
-				},
-				"reminders": {
-					"unit": "day",
-					"amount": 1,
-					"repeat": 1
-				},
-				"completionWindow": {
-					"unit": "min",
-					"amount": 1200
+					"amount": 180
 				}
 			}
 		}
