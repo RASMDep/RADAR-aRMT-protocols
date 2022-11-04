@@ -160,7 +160,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 180
+					"amount": 360
 				}
 			},
 			"notification": {
