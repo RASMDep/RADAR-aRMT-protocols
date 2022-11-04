@@ -162,7 +162,17 @@
 					"unit": "min",
 					"amount": 180
 				}
-			}
+			},
+			"notification": {
+            			"title": {
+              				  "en": "Task time",
+            				  "it": "E' il momento per un compito",
+             				  "es": "Momento para la tarea",
+              				  "nl": "Tijd voor een taak",
+              			          "da": "Tid til at udføre opgaver",
+              				  "de": "Zeit für Aufgaben"
+           			 }
+		      }
 		},
 		{
 			"name": "evening",
