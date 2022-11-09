@@ -1,6 +1,6 @@
 
 {
-	"version": "0.1.2",
+	"version": "1.0.0",
 	"schemaVersion": "0.0.2",
 	"name": "RASM-DEP-TEST",
 	"healthIssues": [
@@ -43,7 +43,9 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740, 3180, 4620, 6060, 7500
+						1740, 3180, 4620, 6060, 7500, 8940, 10380,
+						21900, 23340, 24780, 26220, 27660, 29100, 30540,
+						42060, 43500, 44940, 46380, 47820, 49260, 50700
 					]
 				},
 				"reminders": {
@@ -95,7 +97,8 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740, 3180, 4620, 6060, 7500
+						11820, 13260, 14700, 16140, 17580, 19020, 20460,
+						31980, 33420, 34860, 36300, 37740, 39180, 40620
 					]
 				},
 				"reminders": {
@@ -270,7 +273,8 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1140
+						11220, 12660, 14100, 15540, 16980, 18420, 19860,
+						31380, 32820, 34260, 35700, 37140, 38580,40020
 					]
 				},
 				"reminders": {
@@ -325,7 +329,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						669
+						10560, 20640, 30720, 40800, 49260
 					]
 				},
 				"reminders": {
@@ -380,7 +384,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						669
+						10560, 20640, 30720, 40800, 49260
 					]
 				},
 				"reminders": {
