@@ -2,7 +2,7 @@
 {
 	"version": "1.0.0",
 	"schemaVersion": "0.0.2",
-	"name": "RASM-DEP-TEST",
+	"name": "SMART_STUDY",
 	"healthIssues": [
 		"depression"
 	],
@@ -55,7 +55,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 480
+					"amount": 360
 				}
 			}
 		},
@@ -98,7 +98,7 @@
 					"unit": "min",
 					"unitsFromZero": [
 						11820, 13260, 14700, 16140, 17580, 19020, 20460,
-						31980, 33420, 34860, 36300, 37740, 39180, 40620
+						30540,	31980,	33420,	34860,	36300,	37740,	39180
 					]
 				},
 				"reminders": {
@@ -108,7 +108,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 480
+					"amount": 360
 				}
 			}
 		},
@@ -153,7 +153,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						669
+						720
 					]
 				},
 				"reminders": {
@@ -163,7 +163,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 360
+					"amount": 180
 				}
 			},
 			"notification": {
@@ -273,8 +273,8 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						11220, 12660, 14100, 15540, 16980, 18420, 19860,
-						31380, 32820, 34260, 35700, 37140, 38580,40020
+						78480,	79920,	81360,	82800,	84240,	85680,	87120,
+						98640,	100080,	101520,	102960,	104400,	105840,	107280
 					]
 				},
 				"reminders": {
@@ -284,7 +284,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 600
+					"amount": 540
 				}
 			}
 		},
@@ -329,7 +329,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						10560, 20640, 30720, 40800, 49260
+						10440, 20520, 30600, 40680, 50760
 					]
 				},
 				"reminders": {
@@ -339,7 +339,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 180
+					"amount": 1080
 				}
 			}
 		},
@@ -384,7 +384,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						10560, 20640, 30720, 40800, 49260
+						10440, 20520, 30600, 40680, 50760
 					]
 				},
 				"reminders": {
@@ -394,7 +394,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 180
+					"amount": 1080
 				}
 			}
 		}
