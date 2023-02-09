@@ -1,7 +1,7 @@
 
 {
 	"version": "1.0.0",
-	"schemaVersion": "0.0.2",
+	"schemaVersion": "1.0.0",
 	"name": "SMART_STUDY",
 	"healthIssues": [
 		"depression"
@@ -98,7 +98,7 @@
 					"unit": "min",
 					"unitsFromZero": [
 						11820, 13260, 14700, 16140, 17580, 19020, 20460,
-						30540,	31980,	33420,	34860,	36300,	37740,	39180
+						330540,	31980, 33420, 34860, 36300, 37740, 39180
 					]
 				},
 				"reminders": {
@@ -153,7 +153,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						720
+						2160
 					]
 				},
 				"reminders": {
@@ -228,7 +228,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 600
+					"amount": 480
 				}
 			}
 		},
@@ -273,8 +273,8 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						78480,	79920,	81360,	82800,	84240,	85680,	87120,
-						98640,	100080,	101520,	102960,	104400,	105840,	107280
+						78480,	79920,	81360,	82800,	84240,	85680,
+						98640,	100080,	101520,	102960,	104400,	105840
 					]
 				},
 				"reminders": {
@@ -329,7 +329,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						10440, 20520, 30600, 40680, 50760
+						9660, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
@@ -339,7 +339,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 1080
+					"amount": 540
 				}
 			}
 		},
@@ -384,7 +384,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						10440, 20520, 30600, 40680, 50760
+						9660, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
@@ -394,7 +394,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 1080
+					"amount": 540
 				}
 			}
 		}
