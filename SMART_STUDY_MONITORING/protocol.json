@@ -2,7 +2,7 @@
 {
 	"version": "1.0.0",
 	"schemaVersion": "1.0.0",
-	"name": "SMART_STUDY",
+	"name": "SMART_STUDY_MONITORING",
 	"healthIssues": [
 		"depression"
 	],
@@ -44,61 +44,10 @@
 					"unit": "min",
 					"unitsFromZero": [
 						1740, 3180, 4620, 6060, 7500, 8940, 10380,
+						11820,	13260,	14700,	16140,	17580,	19020,	20460,
 						21900, 23340, 24780, 26220, 27660, 29100, 30540,
+						30540,	31980,	33420,	34860,	36300,	37740,	39180,
 						42060, 43500, 44940, 46380, 47820, 49260, 50700
-					]
-				},
-				"reminders": {
-					"unit": "day",
-					"amount": 1,
-					"repeat": 1
-				},
-				"completionWindow": {
-					"unit": "min",
-					"amount": 360
-				}
-			}
-		},
-		{
-			"name": "MORNING_INTERVENTION",
-			"showIntroduction": true,
-			"questionnaire": {
-				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-				"name": "morning_v2",
-				"topic": "questionnaire_morning",
-				"avsc": "questionnaire"
-			},
-			"startText": {
-				"en": "The morning questionnaire helps us assess the quality of your sleep. It includes questions about going to bed, the quality of your sleep and your current state of health. Please fill out the questionnaire within 30 minutes of waking up. ",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "Der Fragebogen am Morgen hilft uns, die Qualitaet Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualitaet und zu Ihrem jetzigen Befinden. Bitte fuellen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
-				"es": ""
-			},
-			"endText": {
-				"en": "Thank you for taking the time today.",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "Vielen Dank!",
-				"es": ""
-			},
-			"warn": {
-				"en": "",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "",
-				"es": ""
-			},
-			"estimatedCompletionTime": 8,
-			"protocol": {
-				"repeatQuestionnaire": {
-					"unit": "min",
-					"unitsFromZero": [
-						11820, 13260, 14700, 16140, 17580, 19020, 20460,
-						330540,	31980, 33420, 34860, 36300, 37740, 39180
 					]
 				},
 				"reminders": {
@@ -229,62 +178,6 @@
 				"completionWindow": {
 					"unit": "min",
 					"amount": 480
-				}
-			}
-		},
-		{
-			"name": "CHECKLIST",
-			"showIntroduction": false,
-			"questionnaire": {
-				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-				"name": "checklist",
-				"avsc": "questionnaire"
-			},
-			"startText": {
-				"en": "",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "",
-				"es": ""
-			},
-			"endText": {
-				"en": "",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "",
-				"es": ""
-			},
-			"warn": {
-				"en": "",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "",
-				"es": ""
-			},
-			"estimatedCompletionTime": 3,
-			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
-				"repeatQuestionnaire": {
-					"unit": "min",
-					"unitsFromZero": [
-						78480,	79920,	81360,	82800,	84240,	85680,
-						98640,	100080,	101520,	102960,	104400,	105840
-					]
-				},
-				"reminders": {
-					"unit": "day",
-					"amount": 1,
-					"repeat": 1
-				},
-				"completionWindow": {
-					"unit": "min",
-					"amount": 540
 				}
 			}
 		},
