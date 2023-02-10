@@ -70,11 +70,11 @@
 				"avsc": "questionnaire"
 			},
 			"startText": {
-				"en": "Please fill out this questionnaire between 1:00 p.m. and 2:00 p.m. or before a possible afternoon nap",
+				"en": "Please fill out this questionnaire between 12:00 p.m. and 2:00 p.m. or before a possible afternoon nap",
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Bitte fuellen Sie diesen Fagebogen immer zwischen 13:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
+				"de": "Bitte fuellen Sie diesen Fagebogen immer zwischen 12:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
 				"es": ""
 			},
 			"endText": {
