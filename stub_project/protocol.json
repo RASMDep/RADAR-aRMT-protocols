@@ -1,7 +1,7 @@
 
 {
 	"version": "1.0.0",
-	"schemaVersion": "0.0.2",
+	"schemaVersion": "1.0.0",
 	"name": "SMART_STUDY",
 	"healthIssues": [
 		"depression"
@@ -49,9 +49,9 @@
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -98,7 +98,7 @@
 					"unit": "min",
 					"unitsFromZero": [
 						11820, 13260, 14700, 16140, 17580, 19020, 20460,
-						30540,	31980,	33420,	34860,	36300,	37740,	39180
+						330540,	31980, 33420, 34860, 36300, 37740, 39180
 					]
 				},
 				"reminders": {
@@ -121,11 +121,11 @@
 				"avsc": "questionnaire"
 			},
 			"startText": {
-				"en": "Please fill out this questionnaire between 1:00 p.m. and 2:00 p.m. or before a possible afternoon nap",
+				"en": "Please fill out this questionnaire between 12:00 p.m. and 2:00 p.m. or before a possible afternoon nap",
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Bitte fuellen Sie diesen Fagebogen immer zwischen 13:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
+				"de": "Bitte fuellen Sie diesen Fagebogen immer zwischen 12:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
 				"es": ""
 			},
 			"endText": {
@@ -153,7 +153,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						720
+						2160
 					]
 				},
 				"reminders": {
@@ -194,11 +194,11 @@
 				"es": ""
 			},
 			"endText": {
-				"en": "Thanks very much! Then, before going to bed, continue with the checklist.",
+				"en": "Many thanks! If tonight is an intervention night, please complete the checklist before going to bed. If not, you are all set. Have a good night.",
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Vielen Dank! Vor dem Schlafengehen geht es dann weiter mit der Checkliste.",
+				"de": "Vielen Dank! Falls heute eine Interventionsnacht ist, bitten wir Sie die Checkliste vor dem Schlafengehen auszufüllen. Falls nicht, war dies der letzte Fragebogen für heute. Gute Nacht.",
 				"es": ""
 			},
 			"warn": {
@@ -228,7 +228,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 600
+					"amount": 480
 				}
 			}
 		},
@@ -273,8 +273,8 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						78480,	79920,	81360,	82800,	84240,	85680,	87120,
-						98640,	100080,	101520,	102960,	104400,	105840,	107280
+						78480,	79920,	81360,	82800,	84240,	85680,
+						98640,	100080,	101520,	102960,	104400,	105840
 					]
 				},
 				"reminders": {
@@ -329,7 +329,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						10440, 20520, 30600, 40680, 50760
+						9660, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
@@ -339,7 +339,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 1080
+					"amount": 540
 				}
 			}
 		},
@@ -384,7 +384,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						10440, 20520, 30600, 40680, 50760
+						9660, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
@@ -394,7 +394,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 1080
+					"amount": 540
 				}
 			}
 		}
