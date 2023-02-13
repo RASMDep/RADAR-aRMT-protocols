@@ -222,9 +222,9 @@
 					]
 				},
 				"reminders": {
-					"unit": "min",
-					"amount": 10,
-					"repeat": 2
+					"unit": "hour",
+					"amount": 2,
+					"repeat": 4
 				},
 				"completionWindow": {
 					"unit": "min",
