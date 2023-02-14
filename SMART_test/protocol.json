@@ -102,9 +102,9 @@
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -157,9 +157,9 @@
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -278,9 +278,9 @@
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -333,9 +333,9 @@
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -388,9 +388,9 @@
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
