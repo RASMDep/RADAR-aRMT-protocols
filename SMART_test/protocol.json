@@ -173,7 +173,7 @@
              				  "es": "Momento para la tarea",
               				  "nl": "Tijd voor een taak",
               			          "da": "Tid til at udføre opgaver",
-              				  "de": "Zeit für Aufgaben"
+              				  "de": "Zeit fuer Aufgaben"
            			 }
 		      }
 		},
@@ -198,7 +198,7 @@
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Vielen Dank! Falls heute eine Interventionsnacht ist, bitten wir Sie die Checkliste vor dem Schlafengehen auszufüllen. Falls nicht, war dies der letzte Fragebogen für heute. Gute Nacht.",
+				"de": "Vielen Dank! Falls heute eine Interventionsnacht ist, bitten wir Sie die Checkliste vor dem Schlafengehen auszufuellen. Falls nicht, war dies der letzte Fragebogen fuer heute. Gute Nacht.",
 				"es": ""
 			},
 			"warn": {
@@ -288,6 +288,7 @@
 				}
 			}
 		},
+		      
 		{
 			"name": "BDI-II",
 			"showIntroduction": true,
