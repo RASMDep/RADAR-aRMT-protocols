@@ -2,7 +2,7 @@
 {
 	"version": "1.0.0",
 	"schemaVersion": "1.0.0",
-	"name": "STUB_PROJECT",
+	"name": "SMART_STUDY",
 	"healthIssues": [
 		"depression"
 	],
@@ -40,17 +40,18 @@
 			},
 			"estimatedCompletionTime": 8,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						3180, 4620, 6060, 7500, 8940, 10380,
+						500, 3180, 4620, 6060, 7500, 8940, 10380,
 						21900, 23340, 24780, 26220, 27660, 29100, 30540,
 						42060, 43500, 44940, 46380, 47820, 49260, 50700
 					]
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -93,17 +94,18 @@
 			},
 			"estimatedCompletionTime": 8,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740, 13260, 14700, 16140, 17580, 19020, 20460,
+						500, 13260, 14700, 16140, 17580, 19020, 20460,
 						330540,	31980, 33420, 34860, 36300, 37740, 39180
 					]
-				}
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 2
+				},
 				"completionWindow": {
 					"unit": "min",
 					"amount": 360
@@ -143,12 +145,17 @@
 				"es": ""
 			},
 			"estimatedCompletionTime": 3,
-			"protocol": 
+			"protocol": {
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740
+						500
 					]
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -200,14 +207,10 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740
+						500
 					]
 				},
 				"reminders": {
@@ -255,14 +258,10 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740,	79920,	81360,	82800,	84240,	85680,
+						500,	79920,	81360,	82800,	84240,	85680,
 						98640,	100080,	101520,	102960,	104400,	105840
 					]
 				},
@@ -312,14 +311,10 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740, 19740, 29820, 39900, 49980
+						500, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
@@ -367,14 +362,10 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						19740, 29820, 39900, 49980
+						500, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
