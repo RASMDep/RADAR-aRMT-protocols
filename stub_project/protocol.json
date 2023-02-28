@@ -2,7 +2,7 @@
 {
 	"version": "1.0.0",
 	"schemaVersion": "1.0.0",
-	"name": "SMART_STUDY",
+	"name": "STUD_PROJECT",
 	"healthIssues": [
 		"depression"
 	],
@@ -40,6 +40,10 @@
 			},
 			"estimatedCompletionTime": 8,
 			"protocol": {
+				"repeatProtocol": {
+					"unit": "day",
+					"amount": 1
+				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
@@ -49,9 +53,9 @@
 					]
 				},
 				"reminders": {
-					"unit": "min",
-					"amount": 10,
-					"repeat": 4
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -94,17 +98,21 @@
 			},
 			"estimatedCompletionTime": 8,
 			"protocol": {
+				"repeatProtocol": {
+					"unit": "day",
+					"amount": 1
+				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						11820, 13260, 14700, 16140, 17580, 19020, 20460,
+						1740, 13260, 14700, 16140, 17580, 19020, 20460,
 						330540,	31980, 33420, 34860, 36300, 37740, 39180
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -153,17 +161,17 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						710
+						1740
 					]
 				},
 				"reminders": {
 					"unit": "hour",
-					"amount": 2,
-					"repeat": 4
+					"amount": 1,
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 400
+					"amount": 180
 				}
 			},
 			"notification": {
@@ -173,7 +181,7 @@
              				  "es": "Momento para la tarea",
               				  "nl": "Tijd voor een taak",
               			          "da": "Tid til at udføre opgaver",
-              				  "de": "Zeit für Aufgaben"
+              				  "de": "Zeit fuer Aufgaben"
            			 }
 		      }
 		},
@@ -190,7 +198,7 @@
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Der Fragebogen am Abend hilft uns, Ihre Aktivitaeten am Tag zu erfassen. Diese koeonnen einen Einfluss auf ihren Schlaf haben.",
+				"de": "Der Fragebogen am Abend hilft uns, Ihre Aktivitaeten am Tag zu erfassen. Diese koennen einen Einfluss auf ihren Schlaf haben.",
 				"es": ""
 			},
 			"endText": {
@@ -198,7 +206,7 @@
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Vielen Dank! Falls heute eine Interventionsnacht ist, bitten wir Sie die Checkliste vor dem Schlafengehen auszufüllen. Falls nicht, war dies der letzte Fragebogen für heute. Gute Nacht.",
+				"de": "Vielen Dank! Falls heute eine Interventionsnacht ist, bitten wir Sie die Checkliste vor dem Schlafengehen auszufuellen. Falls nicht, war dies der letzte Fragebogen fuer heute. Gute Nacht.",
 				"es": ""
 			},
 			"warn": {
@@ -218,13 +226,13 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						990
+						1740
 					]
 				},
 				"reminders": {
-					"unit": "hour",
-					"amount": 2,
-					"repeat": 4
+					"unit": "day",
+					"amount": 1,
+					"repeat": 1
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -233,8 +241,8 @@
 			}
 		},
 		{
-			"name": "CHECKLIST",
-			"showIntroduction": false,
+			"name": "checklist",
+			"showIntroduction": true,
 			"questionnaire": {
 				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
 				"name": "checklist",
@@ -273,14 +281,14 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						78480,	79920,	81360,	82800,	84240,	85680,
+						1740,	79920,	81360,	82800,	84240,	85680,
 						98640,	100080,	101520,	102960,	104400,	105840
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -288,6 +296,7 @@
 				}
 			}
 		},
+		      
 		{
 			"name": "BDI-II",
 			"showIntroduction": true,
@@ -329,13 +338,13 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						9660, 19740, 29820, 39900, 49980
+						1740, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -384,13 +393,13 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						9660, 19740, 29820, 39900, 49980
+						1740, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
-					"unit": "day",
+					"unit": "hour",
 					"amount": 1,
-					"repeat": 1
+					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
