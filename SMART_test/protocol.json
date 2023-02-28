@@ -40,10 +40,6 @@
 			},
 			"estimatedCompletionTime": 8,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
@@ -98,10 +94,6 @@
 			},
 			"estimatedCompletionTime": 8,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
@@ -154,10 +146,6 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
@@ -219,10 +207,6 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
@@ -274,10 +258,6 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
@@ -331,10 +311,6 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
@@ -386,10 +362,6 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
