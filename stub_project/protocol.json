@@ -52,11 +52,6 @@
 						42060, 43500, 44940, 46380, 47820, 49260, 50700
 					]
 				},
-				"reminders": {
-					"unit": "hour",
-					"amount": 1,
-					"repeat": 2
-				},
 				"completionWindow": {
 					"unit": "min",
 					"amount": 360
@@ -108,12 +103,7 @@
 						1740, 13260, 14700, 16140, 17580, 19020, 20460,
 						330540,	31980, 33420, 34860, 36300, 37740, 39180
 					]
-				},
-				"reminders": {
-					"unit": "hour",
-					"amount": 1,
-					"repeat": 2
-				},
+				}
 				"completionWindow": {
 					"unit": "min",
 					"amount": 360
@@ -153,21 +143,12 @@
 				"es": ""
 			},
 			"estimatedCompletionTime": 3,
-			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
+			"protocol": 
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
 						1740
 					]
-				},
-				"reminders": {
-					"unit": "hour",
-					"amount": 1,
-					"repeat": 2
 				},
 				"completionWindow": {
 					"unit": "min",
