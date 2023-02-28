@@ -241,8 +241,8 @@
 			}
 		},
 		{
-			"name": "CHECKLIST",
-			"showIntroduction": false,
+			"name": "checklist",
+			"showIntroduction": true,
 			"questionnaire": {
 				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
 				"name": "checklist",
