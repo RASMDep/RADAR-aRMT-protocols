@@ -51,7 +51,7 @@
 				"reminders": {
 					"unit": "hour",
 					"amount": 1,
-					"repeat": 2
+					"repeat": 1
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -104,7 +104,7 @@
 				"reminders": {
 					"unit": "hour",
 					"amount": 1,
-					"repeat": 2
+					"repeat": 1
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -159,7 +159,7 @@
 				"reminders": {
 					"unit": "hour",
 					"amount": 1,
-					"repeat": 2
+					"repeat": 1
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -233,7 +233,7 @@
 			}
 		},
 		{
-			"name": "checklist",
+			"name": "CHECKLIST",
 			"showIntroduction": true,
 			"questionnaire": {
 				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
@@ -276,7 +276,7 @@
 				"reminders": {
 					"unit": "hour",
 					"amount": 1,
-					"repeat": 2
+					"repeat": 1
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -328,7 +328,7 @@
 				"reminders": {
 					"unit": "hour",
 					"amount": 1,
-					"repeat": 2
+					"repeat": 1
 				},
 				"completionWindow": {
 					"unit": "min",
@@ -379,7 +379,7 @@
 				"reminders": {
 					"unit": "hour",
 					"amount": 1,
-					"repeat": 2
+					"repeat": 1
 				},
 				"completionWindow": {
 					"unit": "min",
