@@ -233,7 +233,7 @@
 			}
 		},
 		{
-			"name": "CHECKLIST",
+			"name": "checklist",
 			"showIntroduction": true,
 			"questionnaire": {
 				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
@@ -266,25 +266,27 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
+				"repeatProtocol": {
+					"unit": "day",
+					"amount": 1
+				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						78480, 79920, 81360, 82800, 84240, 85680,
-						98640, 100080, 101520, 102960, 104400, 105840
+						1160
 					]
 				},
 				"reminders": {
-					"unit": "hour",
+					"unit": "day",
 					"amount": 1,
 					"repeat": 1
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 540
+					"amount": 480
 				}
 			}
-		},
-		      
+		},  
 		{
 			"name": "BDI-II",
 			"showIntroduction": true,
