@@ -266,14 +266,11 @@
 			},
 			"estimatedCompletionTime": 3,
 			"protocol": {
-				"repeatProtocol": {
-					"unit": "day",
-					"amount": 1
-				},
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1160
+						78480,79920,81360,82800,84240,85680,
+						98640,100080,101520,102960,104400,105840
 					]
 				},
 				"reminders": {
@@ -283,7 +280,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 480
+					"amount": 540
 				}
 			}
 		},  
