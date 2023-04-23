@@ -55,7 +55,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 360
+					"amount": 420
 				}
 			}
 		},
@@ -108,7 +108,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 360
+					"amount": 420
 				}
 			}
 		},
