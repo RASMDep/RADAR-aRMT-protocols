@@ -77,11 +77,11 @@
 				"es": ""
 			},
 			"endText": {
-				"en": "Thank you for taking the time today.",
+				"en": "Thank you for taking the time today. We kindly suggest checking the ECG-smart app on your phone to ensure that the device is still connected.",
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Vielen Dank!",
+				"de": "Vielen Dank! Wir schlagen freundlich vor, die ECG-smart App auf Ihrem Telefon zu ueberpruefen, um sicherzustellen, dass das Geraet noch verbunden ist.",
 				"es": ""
 			},
 			"warn": {
