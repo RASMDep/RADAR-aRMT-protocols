@@ -154,7 +154,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						2160
+						720
 					]
 				},
 				"reminders": {
