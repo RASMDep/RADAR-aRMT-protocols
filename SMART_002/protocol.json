@@ -2,7 +2,7 @@
 {
 	"version": "1.0.0",
 	"schemaVersion": "1.0.0",
-	"name": "SMART_STUDY",
+	"name": "SMART_STUDY_MONITORING",
 	"healthIssues": [
 		"depression"
 	],
@@ -43,11 +43,15 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						10380,11820,13260,14700,16140,17580,19020
+					        1740, 3180, 4620, 6060, 7500, 8940, 10380,
+						11820,	13260,	14700,	16140,	17580,	19020,	20460,
+						21900, 23340, 24780, 26220, 27660, 29100, 30540,
+						30540,	31980,	33420,	34860,	36300,	37740,	39180,
+						42060, 43500, 44940, 46380, 47820, 49260, 50700
 					]
 				},
 				"reminders": {
-					"unit": "hour",
+					"unit": "day",
 					"amount": 1,
 					"repeat": 1
 				},
@@ -95,7 +99,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						1740,3180,4620,6060,7500,8940
+						300
 					]
 				},
 				"reminders": {
@@ -150,11 +154,11 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						720
+						2160
 					]
 				},
 				"reminders": {
-					"unit": "hour",
+					"unit": "day",
 					"amount": 1,
 					"repeat": 1
 				},
@@ -170,7 +174,7 @@
              				  "es": "Momento para la tarea",
               				  "nl": "Tijd voor een taak",
               			          "da": "Tid til at udføre opgaver",
-              				  "de": "Zeit fuer Aufgaben"
+              				  "de": "Zeit für Aufgaben"
            			 }
 		      }
 		},
@@ -187,15 +191,15 @@
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Der Fragebogen am Abend hilft uns, Ihre Aktivitaeten am Tag zu erfassen. Diese koennen einen Einfluss auf ihren Schlaf haben.",
+				"de": "Der Fragebogen am Abend hilft uns, Ihre Aktivitaeten am Tag zu erfassen. Diese koeonnen einen Einfluss auf ihren Schlaf haben.",
 				"es": ""
 			},
 			"endText": {
-				"en": "Many thanks! If tonight is an intervention night, please complete the checklist before going to bed. If not, you are all set. Have a good night.",
+				"en": "Many thanks! You are done for today. Have a good night.",
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Vielen Dank! Falls heute eine Interventionsnacht ist, bitten wir Sie die Checkliste vor dem Schlafengehen auszufuellen. Falls nicht, war dies der letzte Fragebogen fuer heute. Gute Nacht.",
+				"de": "Vielen Dank! Das war der letzte Fragebogen für heute. Gute Nacht.",
 				"es": ""
 			},
 			"warn": {
@@ -229,57 +233,6 @@
 				}
 			}
 		},
-		{
-			"name": "CHECKLIST",
-			"showIntroduction": true,
-			"questionnaire": {
-				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-				"name": "checklist",
-				"avsc": "questionnaire"
-			},
-			"startText": {
-				"en": "",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "",
-				"es": ""
-			},
-			"endText": {
-				"en": "Thank you for taking the time today.",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "Vielen Dank!",
-				"es": ""
-			},
-			"warn": {
-				"en": "",
-				"it": "",
-				"nl": "",
-				"da": "",
-				"de": "",
-				"es": ""
-			},
-			"estimatedCompletionTime": 8,
-			"protocol": {
-				"repeatQuestionnaire": {
-					"unit": "min",
-					"unitsFromZero": [
-						1200,2640,4080,5520,6960
-					]
-				},
-				"reminders": {
-					"unit": "hour",
-					"amount": 1,
-					"repeat": 1
-				},
-				"completionWindow": {
-					"unit": "min",
-					"amount": 420
-				}
-			}
-		},  
 		{
 			"name": "BDI-II",
 			"showIntroduction": true,
@@ -317,11 +270,11 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						8220, 18300
+						9660, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
-					"unit": "hour",
+					"unit": "day",
 					"amount": 1,
 					"repeat": 1
 				},
@@ -368,11 +321,11 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						8220, 18300
+						9660, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
-					"unit": "hour",
+					"unit": "day",
 					"amount": 1,
 					"repeat": 1
 				},
