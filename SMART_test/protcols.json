@@ -321,7 +321,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",
 					"unitsFromZero": [
-						300,9660, 19740, 29820, 39900, 49980
+					        1,9660, 19740, 29820, 39900, 49980
 					]
 				},
 				"reminders": {
@@ -331,7 +331,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 540
+					"amount": 1000
 				}
 			}
 		},
