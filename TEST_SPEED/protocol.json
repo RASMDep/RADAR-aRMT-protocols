@@ -56,7 +56,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 420
+					"amount": 3600
 				}
 			}
 		}
