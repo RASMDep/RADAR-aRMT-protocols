@@ -1,1 +1,61 @@
 
+{
+	"version": "1.0.0",
+	"schemaVersion": "1.0.0",
+	"name": "TEST_SPEED",
+	"healthIssues": [
+		"none"
+	],
+	"protocols": [{
+		{
+			"name": "rasmdep1",
+			"showIntroduction": true,
+			"questionnaire": {
+				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+				"name": "ess",
+				"avsc": "questionnaire"
+			},
+			"startText": {
+				"en": "Test",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Test",
+				"es": ""
+			},
+			"endText": {
+				"en": "Thanks very much!",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Vielen Dank! ",
+				"es": ""
+			},
+			"warn": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"estimatedCompletionTime": 3,
+			"protocol": {
+				"repeatQuestionnaire": {
+					"unit": "min",
+					"amount": 2
+				},
+				"reminders": {
+					"unit": "day",
+					"amount": 1,
+					"repeat": 1
+				},
+				"completionWindow": {
+					"unit": "min",
+					"amount": 1440
+				}
+			}
+		}
+
+	]
+}
