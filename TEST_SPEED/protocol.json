@@ -42,7 +42,7 @@
 			"protocol": {
 				"repeatQuestionnaire": {
 					"unit": "min",
-					"amount": 10,
+=					"repeat": 10,					
 					"unitsFromZero": [
 						0,1740, 3180, 4620, 6060, 7500, 8940, 10380,
 						21900, 23340, 24780, 26220, 27660, 29100, 30540,
