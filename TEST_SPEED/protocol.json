@@ -15,19 +15,19 @@
 				"avsc": "questionnaire"
 			},
 			"startText": {
-				"en": "The morning questionnaire helps us assess the quality of your sleep. It includes questions about going to bed, the quality of your sleep and your current state of health. Please fill out the questionnaire within 30 minutes of waking up. ",
+				"en": "  ",
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Der Fragebogen am Morgen hilft uns, die Qualitaet Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualitaet und zu Ihrem jetzigen Befinden. Bitte fuellen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
+				"de": "",
 				"es": ""
 			},
 			"endText": {
-				"en": "Thank you for taking the time today. We kindly suggest checking the ECG-smart app on your phone to ensure that the device is still connected.",
+				"en": "",
 				"it": "",
 				"nl": "",
 				"da": "",
-				"de": "Vielen Dank! Wir schlagen freundlich vor, die ECG-smart App auf Ihrem Telefon zu ueberpruefen, um sicherzustellen, dass das Geraet noch verbunden ist.",
+				"de": "",
 				"es": ""
 			},
 			"warn": {
@@ -46,8 +46,7 @@
 						0,1740, 3180, 4620, 6060, 7500, 8940, 10380,
 						21900, 23340, 24780, 26220, 27660, 29100, 30540,
 						42060, 43500, 44940, 46380, 47820, 49260, 50700
-					],
-					"repeat": 10,	
+					]
 				},
 				"reminders": {
 					"unit": "hour",
