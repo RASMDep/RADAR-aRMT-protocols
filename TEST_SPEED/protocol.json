@@ -41,13 +41,13 @@
 			"estimatedCompletionTime": 8,
 			"protocol": {
 				"repeatQuestionnaire": {
-					"unit": "min",
-=					"repeat": 10,					
+					"unit": "min",				
 					"unitsFromZero": [
 						0,1740, 3180, 4620, 6060, 7500, 8940, 10380,
 						21900, 23340, 24780, 26220, 27660, 29100, 30540,
 						42060, 43500, 44940, 46380, 47820, 49260, 50700
-					]
+					],
+					"repeat": 10,	
 				},
 				"reminders": {
 					"unit": "hour",
