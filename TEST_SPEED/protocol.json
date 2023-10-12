@@ -22,6 +22,65 @@
 				"de": "",
 				"es": ""
 			},
+{
+	"version": "1.0.0",
+	"schemaVersion": "1.0.0",
+	"name": "SMART_STUDY",
+	"healthIssues": [
+		"depression"
+	],
+	"protocols": [{
+			"name": "rasmdep1",
+			"showIntroduction": true,
+			"questionnaire": {
+				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+				"name": "rasmdep1",
+				"avsc": "questionnaire"
+			},
+			"startText": {
+				"en": "  ",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"endText": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"warn": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"estimatedCompletionTime": 8,
+			"protocol": {
+				"repeatQuestionnaire": {
+					"unit": "hour",	
+					"repeat": 1
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 1
+				},
+				"completionWindow": {
+					"unit": "min",
+					"amount": 3600
+				}
+			}
+		}
+
+	]
+}
 			"endText": {
 				"en": "",
 				"it": "",
