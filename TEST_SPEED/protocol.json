@@ -50,7 +50,7 @@
 				"repeatProtocol": {
 					"unit": "min",
 					"amount": 1
-					}
+					},
 				"reminders": {
 					"unit": "hour",
 					"amount": 1,
