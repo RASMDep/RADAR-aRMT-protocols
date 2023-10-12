@@ -42,9 +42,12 @@
          "protocol":{
             "repeatQuestionnaire":{
                "unit":"min",
-               "unitsFromZero": [480 ],
-               "repeat":5
+               "unitsFromZero": [480 ]
             },
+            "repeatProtocol": {
+               "unit": "hours",
+               "amount": 1
+               },
             "reminders":{
                "unit":"hour",
                "amount":1,
