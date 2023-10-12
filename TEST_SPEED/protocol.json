@@ -43,7 +43,7 @@
             "repeatQuestionnaire":{
                "unit":"min",
                "unitsFromZero": [480 ],
-               "repate":5
+               "repeat":5
             },
             "reminders":{
                "unit":"hour",
