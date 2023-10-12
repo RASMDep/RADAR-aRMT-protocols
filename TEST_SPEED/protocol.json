@@ -43,8 +43,7 @@
 				"repeatQuestionnaire": {
 					"unit": "min",	
 					"unitsFromZero": [
-				           480,
-
+				           480
 				         ]
 				},
 				"repeatProtocol": {
