@@ -228,7 +228,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 480
+					"amount": 540
 				}
 			}
 		},
@@ -280,7 +280,7 @@
 				},
 				"completionWindow": {
 					"unit": "min",
-					"amount": 420
+					"amount": 480
 				}
 			}
 		},  
