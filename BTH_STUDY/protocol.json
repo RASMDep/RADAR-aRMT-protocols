@@ -7,11 +7,11 @@
    ],
    "protocols":[
       {
-         "name":"rasmdep1",
+         "name":"bth",
          "showIntroduction":true,
          "questionnaire":{
             "repository":"https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-            "name":"bth_sbb",
+            "name":"bth",
             "avsc":"questionnaire"
          },
          "startText":{
@@ -38,7 +38,26 @@
             "de":"",
             "es":""
          },
-         "estimatedCompletionTime":5
+         "estimatedCompletionTime":5,
+         "protocol":{
+            "repeatQuestionnaire":{
+               "unit":"min",
+               "unitsFromZero":[]
+            },
+            "repeatProtocol": {
+               "unit": "day",
+               "amount": 1
+               },
+            "reminders":{
+               "unit":"hour",
+               "amount":0,
+               "repeat":0
+            },
+            "completionWindow":{
+               "unit":"min",
+               "amount":3600
+            }
+         }
       }
    ]
 }
