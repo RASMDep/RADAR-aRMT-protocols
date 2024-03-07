@@ -11,7 +11,7 @@
          "showIntroduction":true,
          "questionnaire":{
             "repository":"https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
-            "name":"bth",
+            "name":"rasmdep1",
             "avsc":"questionnaire"
          },
          "startText":{
@@ -42,7 +42,7 @@
          "protocol":{
             "repeatQuestionnaire":{
                "unit":"min",
-               "unitsFromZero":[]
+               "unitsFromZero":[0]
             },
             "repeatProtocol": {
                "unit": "day",
