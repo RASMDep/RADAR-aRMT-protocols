@@ -1,0 +1,387 @@
+
+{
+	"version": "1.0.0",
+	"schemaVersion": "1.0.0",
+	"name": "SMART_STUDY",
+	"healthIssues": [
+		"depression"
+	],
+	"protocols": [{
+			"name": "morning",
+			"showIntroduction": true,
+			"questionnaire": {
+				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+				"name": "morning",
+				"avsc": "questionnaire"
+			},
+			"startText": {
+				"en": "The morning questionnaire helps us assess the quality of your sleep. It includes questions about going to bed, the quality of your sleep and your current state of health. Please fill out the questionnaire within 30 minutes of waking up. ",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Der Fragebogen am Morgen hilft uns, die Qualitaet Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualitaet und zu Ihrem jetzigen Befinden. Bitte fuellen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
+				"es": ""
+			},
+			"endText": {
+				"en": "Thank you for taking the time today. We kindly suggest checking the ECG-smart app on your phone to ensure that the device is still connected.",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Vielen Dank! Wir schlagen freundlich vor, die ECG-smart App auf Ihrem Telefon zu ueberpruefen, um sicherzustellen, dass das Geraet noch verbunden ist.",
+				"es": ""
+			},
+			"warn": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"estimatedCompletionTime": 8,
+			"protocol": {
+				"repeatQuestionnaire": {
+					"unit": "min",
+					"unitsFromZero": [
+						6060,7500,	8940	,10380	,11820	,13260	,14700
+					]
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 1
+				},
+				"completionWindow": {
+					"unit": "min",
+					"amount": 420
+				}
+			}
+		},
+		{
+			"name": "MORNING_INTERVENTION",
+			"showIntroduction": true,
+			"questionnaire": {
+				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+				"name": "morning_v2",
+				"topic": "questionnaire_morning",
+				"avsc": "questionnaire"
+			},
+			"startText": {
+				"en": "The morning questionnaire helps us assess the quality of your sleep. It includes questions about going to bed, the quality of your sleep and your current state of health. Please fill out the questionnaire within 30 minutes of waking up. ",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Der Fragebogen am Morgen hilft uns, die Qualitaet Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualitaet und zu Ihrem jetzigen Befinden. Bitte fuellen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus.",
+				"es": ""
+			},
+			"endText": {
+				"en": "Thank you for taking the time today. We kindly suggest checking the ECG-smart app on your phone to ensure that the device is still connected.",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Vielen Dank! Wir schlagen freundlich vor, die ECG-smart App auf Ihrem Telefon zu ueberpruefen, um sicherzustellen, dass das Geraet noch verbunden ist.",
+				"es": ""
+			},
+			"warn": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"estimatedCompletionTime": 8,
+			"protocol": {
+				"repeatQuestionnaire": {
+					"unit": "min",
+					"unitsFromZero": [
+						300,1740,	3180	,4620
+					]
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 1
+				},
+				"completionWindow": {
+					"unit": "min",
+					"amount": 420
+				}
+			}
+		},
+		{
+			"name": "kss_mood",
+			"showIntroduction": true,
+			"questionnaire": {
+				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+				"name": "kss_mood",
+				"avsc": "questionnaire"
+			},
+			"startText": {
+				"en": "Please fill out this questionnaire between 12:00 p.m. and 2:00 p.m. or before a possible afternoon nap",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Bitte fuellen Sie diesen Fagebogen immer zwischen 12:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
+				"es": ""
+			},
+			"endText": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"warn": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"estimatedCompletionTime": 3,
+			"protocol": {
+				"repeatProtocol": {
+					"unit": "day",
+					"amount": 1
+				},
+				"repeatQuestionnaire": {
+					"unit": "min",
+					"unitsFromZero": [
+						2160
+					]
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 1
+				},
+				"completionWindow": {
+					"unit": "min",
+					"amount": 180
+				}
+			},
+			"notification": {
+            			"title": {
+              				  "en": "Task time",
+            				  "it": "E' il momento per un compito",
+             				  "es": "Momento para la tarea",
+              				  "nl": "Tijd voor een taak",
+              			          "da": "Tid til at udføre opgaver",
+              				  "de": "Zeit fuer Aufgaben"
+           			 }
+		      }
+		},
+		{
+			"name": "evening",
+			"showIntroduction": true,
+			"questionnaire": {
+				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+				"name": "evening",
+				"avsc": "questionnaire"
+			},
+			"startText": {
+				"en": "The questionnaire in the evening helps us to record your activities during the day. These can have an impact on your sleep.",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Der Fragebogen am Abend hilft uns, Ihre Aktivitaeten am Tag zu erfassen. Diese koennen einen Einfluss auf ihren Schlaf haben.",
+				"es": ""
+			},
+			"endText": {
+				"en": "Many thanks! If tonight is an intervention night, please complete the checklist before going to bed. If not, you are all set. Have a good night.",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Vielen Dank! Falls heute eine Interventionsnacht ist, bitten wir Sie die Checkliste vor dem Schlafengehen auszufuellen. Falls nicht, war dies der letzte Fragebogen fuer heute. Gute Nacht.",
+				"es": ""
+			},
+			"warn": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"estimatedCompletionTime": 3,
+			"protocol": {
+				"repeatProtocol": {
+					"unit": "day",
+					"amount": 1
+				},
+				"repeatQuestionnaire": {
+					"unit": "min",
+					"unitsFromZero": [
+						1140
+					]
+				},
+				"reminders": {
+					"unit": "day",
+					"amount": 1,
+					"repeat": 1
+				},
+				"completionWindow": {
+					"unit": "min",
+					"amount": 540
+				}
+			}
+		},
+		{
+			"name": "CHECKLIST",
+			"showIntroduction": true,
+			"questionnaire": {
+				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+				"name": "checklist",
+				"avsc": "questionnaire"
+			},
+			"startText": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"endText": {
+				"en": "Thank you for taking the time today.",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Vielen Dank!",
+				"es": ""
+			},
+			"warn": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"estimatedCompletionTime": 8,
+			"protocol": {
+				"repeatQuestionnaire": {
+					"unit": "min",
+					"unitsFromZero": [
+						1200,2640
+					]
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 1
+				},
+				"completionWindow": {
+					"unit": "min",
+					"amount": 480
+				}
+			}
+		},  
+		{
+			"name": "BDI-II",
+			"showIntroduction": true,
+			"questionnaire": {
+				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+				"name": "bdi_ii",
+				"avsc": "questionnaire"
+			},
+			"startText": {
+				"en": "Beck's Depression Inventory",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Beck's Depression Inventory",
+				"es": ""
+			},
+			"endText": {
+				"en": "Thanks very much!",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Vielen Dank! ",
+				"es": ""
+			},
+			"warn": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"estimatedCompletionTime": 3,
+			"protocol": {
+				"repeatQuestionnaire": {
+					"unit": "min",
+					"unitsFromZero": [
+						3900,13980
+					]
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 1
+				},
+				"completionWindow": {
+					"unit": "min",
+					"amount": 540
+				}
+			}
+		},
+		{
+			"name": "ESS",
+			"showIntroduction": true,
+			"questionnaire": {
+				"repository": "https://raw.githubusercontent.com/RASMDep/RADAR-REDCap-aRMT-Definitions/main/questionnaires/",
+				"name": "ess",
+				"avsc": "questionnaire"
+			},
+			"startText": {
+				"en": "Epworth sleepiness scale (ESS) assess daytime sleepiness",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Die Epworth sleepiness scale (ESS) ist ein Verfahren zur Erfassung der Tagesschlaefrigkeit ",
+				"es": ""
+			},
+			"endText": {
+				"en": "Thanks very much!",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "Vielen Dank! ",
+				"es": ""
+			},
+			"warn": {
+				"en": "",
+				"it": "",
+				"nl": "",
+				"da": "",
+				"de": "",
+				"es": ""
+			},
+			"estimatedCompletionTime": 3,
+			"protocol": {
+				"repeatQuestionnaire": {
+					"unit": "min",
+					"unitsFromZero": [
+						3900,13980
+					]
+				},
+				"reminders": {
+					"unit": "hour",
+					"amount": 1,
+					"repeat": 1
+				},
+				"completionWindow": {
+					"unit": "min",
+					"amount": 540
+				}
+			}
+		}
+
+	]
+}
